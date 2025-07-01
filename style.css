@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-bar-info {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.top-bar-info ul {
+    margin-bottom: 0;
+    padding:0;
+    list-style: none;
+
+}
+
+.top-bar-info li {
+    color: #fff;
+    list-style-type: none;
+    padding: 0 7px 0;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 14px;
+    padding: 0;
+    font-family: "Cabin", sans-serif;
+}
+
+.top-bar {
+    display: block;
+    position: relative;
+    z-index: 999;
+    background: #d4641f;
+    padding: 8px 0
+}
+
+.top-bar-info li i {
+    font-size: 16px;
+    color: #fff;
+    margin-right: 8px;
+    margin-top: 0;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.top-social-icon {
+    padding: 0;
+    float: right;
+    margin: 5px 0 0 0
+}
+
+.top-social-icon li {
+    font-size: 14px;
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    margin: 0;
+    padding: 0 6px;
+}
+
+
+.top-social-icon li:last-child {
+    padding-right: 0
+}
+
+.top-social-icon li:last-child a {
+    padding-right: 0
+}
+
+.top-social-icon li a {
+    color: #fff;
+    line-height: 28px;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    font-size: 16px;
+    padding: 0 3px;
+    font-family: "Cabin", sans-serif;
+}
+
+.top-social-icon li a:hover {
+    color: rgba(255,255,255,0.65)
+}
+@media screen and (max-width:576px) {
+    .top-bar .col-md-9{
+        display: flex;
+        justify-content: center;
+    }
+    .top-bar .col-md-3{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:678px) {
+    .top-bar .col-md-9{
+        display: flex;
+        justify-content: center;
+    }
+    .top-bar .col-md-3{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:768px) {
+    .top-bar .col-md-9{
+        display: flex;
+        justify-content: center;
+    }
+    .top-bar .col-md-3{
+        display: flex;
+        justify-content: center;
+    }
+}
